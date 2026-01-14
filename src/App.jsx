@@ -1,17 +1,15 @@
+import Testimonials from './components/Testimonials';
+
 function App() {
   return (
-    <div className="min-h-screen bg-gray-50 flex flex-col items-center justify-center gap-4">
+    <div className="min-h-screen">
+      {/* Aquí irán el Navbar y el Hero luego */}
       
-      {/* Title test */}
-      <h1 className="font-heading text-6xl text-brand-dark">
-        Tanz der Kulturen
-      </h1>
+      <main>
+        <Testimonials />
+      </main>
       
-      {/* Normal font test */}
-      <p className="font-sans text-xl text-gray-600 max-w-md text-center">
-        Non title text.
-      </p>
-
+      {/* Aquí irá el Footer */}
     </div>
   )
 }

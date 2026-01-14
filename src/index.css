@@ -1,20 +1,29 @@
 
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
-
+/* Tussilago for titles (Heavy/Bold) */
 @font-face {
   font-family: 'Tussilago';
-  src: url('./fonts/tussilagorg-regular.otf') format('truetype'); 
-  font-weight: bold;
+  src: url('./fonts/tussilagorg-regular.otf') format('opentype');
+  font-weight: 900;
   font-style: normal;
 }
 
+/* Tussilago for subtitles (Regular) */
 @font-face {
-  font-family: 'Roboto';
-  src: url('./fonts/Roboto-Regular.ttf') format('truetype');
+  font-family: 'Tussilago';
+  src: url('./fonts/tussilagorg-regular.otf') format('opentype');
+  font-weight: 400;
   font-style: normal;
 }
+
+/* Roboto font */
+@font-face {
+  font-family: 'Roboto';
+  src: url('./fonts/Roboto-Regular.ttf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
